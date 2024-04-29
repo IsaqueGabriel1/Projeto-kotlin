@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967851832557",
+    "project_id": "projeto-kotlin-e321c",
+    "storage_bucket": "projeto-kotlin-e321c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967851832557:android:a60bddd9d531066c21c8e4",
+        "android_client_info": {
+          "package_name": "com.example.projetokotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdtPahDLJPhlzhNeEcM5JtpFQq7aRb-xI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

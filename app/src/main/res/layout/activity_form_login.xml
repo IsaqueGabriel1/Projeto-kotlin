@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/light_gray"
+        tools:context=".view.formcadastro.FormCadastro">
+
+        <TextView
+            android:id="@+id/msgExe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_form_login"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/edit_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_senha"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="numberPassword"
+
+            />
+        <TextView
+            android:id="@+id/telaCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_naoCadastro"
+            android:textSize="15dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/btbEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_btn"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/blue"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
